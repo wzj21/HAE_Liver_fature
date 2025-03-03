@@ -5,7 +5,7 @@ import numpy as np
 import streamlit as st
 
 # 设置streamlit页面配置
-st.set_page_config(layout="wide", page_title="Prognostic model for sepsis combined with hypoproteinemia")
+st.set_page_config(layout="wide", page_title="Prognostic model for postoperative liver failure in Hepatic Alveolar Echinococcosis")
 
 # 在侧边栏显示模型推荐和特征解释的警告
 st.sidebar.warning('The remaining dimension variables are values within after admission for preoperative Hepatic Alveolar Echinococcosis patients')
