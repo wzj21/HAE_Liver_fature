@@ -15,7 +15,7 @@ st.sidebar.warning('The remaining dimension variables are values within after ad
 st.info('#### Prognostic model for postoperative liver failure in Hepatic Alveolar Echinococcosis')
 
 # 指定要使用的模型文件
-model_file = "XGBoost_label.pkl"  # 在这里使用你的模型文件
+model_file = "XGBoost.pkl"  # 在这里使用你的模型文件
 
 # 加载并转置特征范围excel文件
 val = pd.read_excel("变量范围.xlsx").T
